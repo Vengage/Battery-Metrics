@@ -9,7 +9,7 @@ package com.facebook.battery.metrics.disk;
 
 import static org.assertj.core.api.Java6Assertions.assertThat;
 
-import com.facebook.annotations.OkToExtend;
+import com.facebook.infer.annotation.OkToExtend;
 import com.facebook.battery.metrics.core.SystemMetricsCollectorTest;
 import java.io.File;
 import java.io.FileOutputStream;
